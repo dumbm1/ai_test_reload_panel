@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExtensionManifest Version="4.0"
+<ExtensionManifest Version="6.0"
                    ExtensionBundleId="com.wk.reload"
                    ExtensionBundleVersion="1.0.0"
                    ExtensionBundleName="Reload Test"
@@ -7,7 +7,7 @@
 
   <ExtensionList>
     <Extension Id="com.wk.reload.panel" Version="1.0"/>
-    <Extension Id="com.wk.reload.modalDialog" Version="1.0"/>
+    <Extension Id="com.wk.reload.dialog" Version="1.0"/>
   </ExtensionList>
   <ExecutionEnvironment>
     <HostList>
@@ -17,7 +17,7 @@
       <Locale Code="All"/>
     </LocaleList>
     <RequiredRuntimeList>
-      <RequiredRuntime Name="CSXS" Version="4.0"/>
+      <RequiredRuntime Name="CSXS" Version="6.0"/>
     </RequiredRuntimeList>
   </ExecutionEnvironment>
 
@@ -60,7 +60,7 @@
       </DispatchInfo>
     </Extension>
 
-    <Extension Id="com.wk.reload.modalDialog">
+    <Extension Id="com.wk.reload.dialog">
       <DispatchInfo>
         <Resources>
           <MainPath>./dialog.html</MainPath>
